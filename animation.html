@@ -5,13 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="animation.css">
+
+    <!-- <script src="/js/app3.js" defer></script> -->
 </head>
+
 <body>
-    <div class="center">
-        <div class="box">
-          <h1>TEXT</h1>
-        </div>
-      </div>
-    
+    <div class="container">
+       <div class="title">To Do List</div>
+       <div class="list">
+         <ol><em>Git'er Done.</em>
+          <br><br>
+           <li>Wake up</li>
+           <li>pray</li>
+           <li>stretch</li>
+           <li>run</li>
+           <li>shower</li>
+         </ol>
+
+       </div>
+       <div class="input"><bold>New Tasks</bold>
+         <br><br>
+         <form>
+           <label for="item">item:</label><br><br>
+          <input type="text" id="item" name="Tasks"><br><br>
+          <label for="time">time:</label><br><br>
+          <input type="datetime-local" id="time" name="Loaded"><br><br>
+          <input type="submit" value="Submit"></form>
+
+       </div>
+
+     </div>
+    </div>
 </body>
 </html>

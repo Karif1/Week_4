@@ -1,0 +1,29 @@
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50px 75px 50px 
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". title ."
+    ". input ."
+    ". list .";
+    row-gap: 20px;
+}
+
+.title, .input, .list{
+    content: center;
+    border: 4px red solid;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: center;
+}
+
+.list{
+    list-style: hover;
+    
+}
