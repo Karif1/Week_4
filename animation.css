@@ -16,7 +16,7 @@
 
 .title, .input, .list{
     content: center;
-    border: 4px red solid;
+    border: 2px red solid;
     padding: 10px;
     grid-column-start: 1;
     grid-column-end: 2;
