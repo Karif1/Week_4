@@ -1,11 +1,10 @@
 
 
 
-
 function myFunction() {
-    let x = document.getElementById("item").value;
-    document.getElementById("time").value;
+        document.getElementById("lists").innerHTML = document.getElementById("lists").innerHTML + document.getElementById("item").value;
 
-    document.getElementById("list").innerHTML = x;
-}
+      }
 
+const el = document.getElementById("item");
+el.addEventListener("click", () => { lists (""); });

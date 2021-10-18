@@ -13,8 +13,9 @@
     <div class="container">
        <div class="title">To Do List</div>
        <div class="list">
-         <ol><em>Git'er Done.</em>
-          <br><br>
+         <em>Git'er Done.</em>
+         <ol id="lists">
+
            <li>Wake up</li>
            <li>pray</li>
            <li>stretch</li>
@@ -25,7 +26,7 @@
        </div>
        <div class="input"><bold>New Tasks</bold>
          <br><br>
-         <form>
+         <form id="todo" onsubmit="return false;">
            <label for="item">item:</label><br><br>
           <input type="text" id="item" name="Tasks"><br><br>
           <label for="time">time:</label><br><br>
